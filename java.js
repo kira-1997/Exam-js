@@ -3,7 +3,7 @@ signOut.addEventListener('click',()=>{
     localStorage.clear()
 })
 
-if(!localStorage){
+if(!localStorage.getItem(userName){
 
     window.open('signUp.html')
     exit()
