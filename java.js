@@ -5,7 +5,7 @@ signOut.addEventListener('click',()=>{
 
 if(!localStorage){
 
-    window.open('signIn.html')
+    window.open('signUp.html')
     exit()
 
 }
