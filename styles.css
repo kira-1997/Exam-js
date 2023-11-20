@@ -1,0 +1,28 @@
+
+.btn{
+    display: flex;
+   flex-direction: row;
+}
+button{
+    color: white;
+    border-radius: 1rem;
+    background: rgba(246, 244, 244, 0.2);
+    border: none;
+
+}
+.text-center{
+    color: white;
+}
+.mask button{
+    font-size: x-large;
+    background-color: rgba(242, 242, 242, 0.2);
+}
+
+@media screen and (max-width: 800px) {
+   .card-img-overlay{
+    font-size: 5px !important;
+   }
+   .card{
+    height: 100%;
+   }
+  }
