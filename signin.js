@@ -12,11 +12,11 @@ if(nickName=="" ||  password==""){
 else{
   fetch('https://65524db75c69a7790329dc3e.mockapi.io/users')
   .then((response) => response.json())
-  .then((data) => 
+  .then((data) => {
   
-      validUser=data.find((d)=>{
+     let validUser=data.find((d)=>
         d.nickName==nickName && d.password==password     
-      }));
+      )
 
    if(!validUser){
     mssg.innerHTML='you dont exist'
@@ -24,6 +24,6 @@ else{
    else{
     window.open("index.html")
     
-   }
+   }});
 
-}})
+}});

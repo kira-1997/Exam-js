@@ -11,7 +11,7 @@ if(localStorage.getItem('name')==''){
 }
 
 let userName=document.getElementById('userName')
-userName.innerHTML='Welcome '+localStorage.getItem(userName)
+userName.innerHTML='Welcome '+localStorage.getItem("name")
 let day=document.getElementById('day')
 let date=document.getElementById('date')
 let prayerTime=document.getElementById('prayerTime')

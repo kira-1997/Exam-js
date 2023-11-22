@@ -11,7 +11,7 @@ if(localStorage.getItem('name')==''){
 }
 
 let userName=document.getElementById('userName')
-userName.innerHTML='Welcome '+localStorage.getItem(userName)
+userName.innerHTML='Welcome '+localStorage.getItem("name")
 
 let city=document.getElementById('city')
 let temp=document.getElementById('temp')
