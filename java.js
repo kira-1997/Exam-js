@@ -5,6 +5,8 @@ signOut.addEventListener('click',()=>{
 
 if(!localStorage.getItem("name")){
     window.location.href='signIn.html'
+
+    window.open('signUp.html')
     exit()
 }
 
